@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="fonts/iconfont.css">
+</head>
+<body>
+    <!-- 第一页 -->
+    <div class="lightbox">lightbox</div>
+    
+    <div class="row">
+        <img src="img/demo1.jpg" class="small-picture" onclick="displayN(1)">
+        <img src="img/demo2.jpg" class="small-picture" onclick="displayN(2)">
+        <img src="img/demo3.jpg" class="small-picture" onclick="displayN(3)">
+        <img src="img/demo4.jpg" class="small-picture" onclick="displayN(4)">
+    </div>
+    <!-- 第二页 -->
+    <div class="secondpage">
+        <span class="close">&times</span>
+        <span class="iconfont prev" >&#xe61c;</span>
+        <span class="iconfont next">&#xe624;</span>
+        <div class="mySlides" id="a1">
+            <span class="number">1/4</span>
+            <img src="img/demo1.jpg" class="slide-picture" >
+        </div>
+        <div class="mySlides" id="a2">
+            <span class="number">2/4</span>
+            <img src="img/demo2.jpg" class="slide-picture">
+        </div>
+        <div class="mySlides" id="a3" >
+            <span class="number" >3/4</span>
+            <img src="img/demo3.jpg" class="slide-picture">
+        </div>
+        <div class="mySlides" id="a4">
+            <span class="number">4/4</span>
+            <img src="img/demo4.jpg" class="slide-picture">
+        </div>
+        <div class="bottom">
+            <img src="img/demo1.jpg" class="bottom-picture" 
+            style="margin-left:150px" id="b1">
+            <img src="img/demo2.jpg" class="bottom-picture" id="b2">
+            <img src="img/demo3.jpg" class="bottom-picture" id="b3">
+            <img src="img/demo4.jpg" class="bottom-picture" id="b4">
+        </div>
+        
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
