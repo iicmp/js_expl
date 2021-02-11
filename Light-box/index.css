@@ -52,11 +52,11 @@ body{
 .prev{
     font-size: 50px;
     color: grey;
-    z-index: 5;
+    z-index: 3;
     display: inline-block;
     position:absolute;
-    top:300px;
-    left:258px;
+    top:250px;
+    left:125px;
 }
 .prev:hover{
     cursor: pointer;
@@ -65,11 +65,11 @@ body{
 .next{
     font-size: 50px;
     color: grey;
-    z-index: 5;
+    z-index: 3;
     display: inline-block;
     position:absolute;
-    top:300px;
-    left:1200px; 
+    top:250px;
+    left:1050px; 
 }
 .next:hover{
    cursor: pointer;
@@ -81,6 +81,7 @@ body{
     position: absolute;
     top:25px;
     left:146px;
+    z-index: 2;
 }
 .number{
     font-size: 30px;
